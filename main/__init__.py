@@ -12,12 +12,12 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.WARNING)
 
 # variables
-API_ID = config("", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
+API_ID = config("21630147", default=None, cast=int)
+API_HASH = config("394962449c1583fb83d4dbe1990acb3a", default=None)
+BOT_TOKEN = config("6559644414:AAHuEnsa_NadPCW7XAxMH39ILCzS8R9MzNs", default=None)
 SESSION = config("BQAph8USqGz3pxtMMZq8Wz39pgoNNOFxlhZAaBUmw5l6url-7kyYffVdCC0buXvXqbWhF3z_-ljn_vm9zDYDZNdaz-NfQKpHkhJJmzgOrQkCI_4lEAwiJ2DfQF7pfPWvtLAlR35fwJS3ziPFuo-fdwhvS8bFpVT2uSL_E4By2NtlKNBAcTLfORCFgzBR_ymNZYrdl11cx-cvZ_4H7HIfNlS9mSXYye8q2CimmBOjwTLAoNxWHY0ist7TnmB0SrGolymjJXfjMuEvVGI40Nj-LtXCLGF-qDTPjfBa9BmoivdfXofs-a5hYkt-rFJXsWhc7Zu8rP6ehFH0LfZmm71b_W68AAAAAWqO1EoA", default=None)
 FORCESUB = config("teddfffe", default=None)
-AUTH = config("AUTH", default=None, cast=int)
+AUTH = config("6082712650", default=None, cast=int)
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
 
